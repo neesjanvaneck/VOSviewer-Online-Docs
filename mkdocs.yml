@@ -1,5 +1,90 @@
-site_name: My Docs
-site_url: https://example.com/
+# Project information
+site_name: VOSviewer Online Docs
+site_url: https://app.vosviewer.com/docs/
+site_author: Nees Jan van Eck and Ludo Waltman
+site_description: >-
+  Welcome to VOSviewer Online Docs - VOSviewer Online is a tool for network visualization.
 
+# Repository
+#repo_url: https://github.com/neesjanvaneck/VOSviewer-Online
+#repo_name: neesjanvaneck/VOSviewer-Online
+
+# Copyright
+copyright: >-
+  Copyright &copy; 2021 <a href="https://orcid.org/0000-0001-8448-4521" target="_blank">Nees Jan van Eck</a> and <a href="https://orcid.org/0000-0001-8249-1752" target="_blank">Ludo Waltman</a>.
+  Published under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> license.
+
+# Page tree
+nav:
+  - Home: index.md
+  - User interface:
+    - user-interface/index.md
+    - Main panel: user-interface/main-panel.md
+    - Control panel: user-interface/control-panel.md
+    - Action buttons: user-interface/action-buttons.md
+#    - Zoom buttons: user-interface/zoom-buttons.md
+#    - Legend: user-interface/legend.md
+#    - Info box: user-interface/info-box.md
+  - File types:
+    - file-types/index.md
+    - VOSviewer JSON files: file-types/json-file-type.md
+    - VOSviewer map and network files: file-types/map-and-network-file-type.md
+  - Sharing a visualization:
+    - sharing/index.md
+    - Linking to a visualization: sharing/linking.md
+    - Embedding a visualization: sharing/embedding.md
+  - Examples: examples.md
+
+# Configuration
 theme:
   name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+#    - navigation.sections
+    - navigation.expand
+    - navigation.top
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/neesjanvaneck
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/neesjanvaneck/
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/neesjanvaneck/
+    - icon: fontawesome/solid/globe
+      link: http://www.neesjanvaneck.nl
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Plugins
+plugins:
+  - search
+  - section-index
+  - markdownextradata: {}
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences
+  - pymdownx.snippets
+
+#remote_branch: gh-pages
+#remote_name: origin

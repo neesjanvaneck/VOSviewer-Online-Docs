@@ -1,0 +1,12 @@
+:root {
+  --vosviewer-green: #1e7896;
+  --md-primary-fg-color: var(--vosviewer-green);
+  --md-primary-fg-color--light: #4b93ab;
+  --md-primary-fg-color--dark:  #155469;
+  --md-accent-fg-color: hsla(195, 39%, 48%, 1);
+  --md-accent-fg-color--transparent: hsla(195, 39%, 48%, 0.1);
+}
+
+.md-header__title {
+	margin-left: 0;
+}

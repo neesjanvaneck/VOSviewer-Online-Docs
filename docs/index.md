@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Welcome to VOSviewer Online Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[VOSviewer Online](https://app.vosviewer.com){target="_blank"} is a tool for network visualization. It is a web-based version of [VOSviewer](https://www.vosviewer.com){target="_blank"}, a popular tool for constructing and visualizing bibliometric networks, such as co-authorship networks, citation networks, and co-occurrence networks.
 
-## Commands
+This documentation covers the following topics:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [*User interface*](/docs/user-interface/). The user interface of VOSviewer Online.
 
-## Project layout
+- [*File types*](/docs/file-types/). The file types supported by VOSviewer Online.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [*Sharing a visualization*](/docs/sharing/). How to share a visualization of a network using VOSviewer Online.
+
+- [*Examples*](/docs/examples/). Examples of networks visualized using VOSviewer Online.
+
+<p>
+  <img src="/docs/assets/images/example1.png" width="370" />
+  <img src="/docs/assets/images/example2.png" width="370" />
+  <img src="/docs/assets/images/example4.png" width="370" />
+  <img src="/docs/assets/images/example3.png" width="370" />
+</p>
