@@ -34,6 +34,7 @@ nav:
     - Linking to a visualization: sharing/linking.md
     - Embedding a visualization: sharing/embedding.md
   - Examples: examples.md
+  - Videos: videos.md
 
 # Configuration
 theme:
