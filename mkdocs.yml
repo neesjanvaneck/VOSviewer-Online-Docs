@@ -6,8 +6,8 @@ site_description: >-
   Welcome to VOSviewer Online Docs - VOSviewer Online is a tool for network visualization.
 
 # Repository
-#repo_url: https://github.com/neesjanvaneck/VOSviewer-Online
-#repo_name: neesjanvaneck/VOSviewer-Online
+repo_url: https://github.com/neesjanvaneck/VOSviewer-Online
+repo_name: neesjanvaneck/VOSviewer-Online
 
 # Copyright
 copyright: >-
@@ -22,9 +22,6 @@ nav:
     - Main panel: user-interface/main-panel.md
     - Control panel: user-interface/control-panel.md
     - Action buttons: user-interface/action-buttons.md
-#    - Zoom buttons: user-interface/zoom-buttons.md
-#    - Legend: user-interface/legend.md
-#    - Info box: user-interface/info-box.md
   - File types:
     - file-types/index.md
     - VOSviewer JSON files: file-types/json-file-type.md
@@ -51,7 +48,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-#    - navigation.sections
     - navigation.expand
     - navigation.top
   favicon: assets/images/favicon.png

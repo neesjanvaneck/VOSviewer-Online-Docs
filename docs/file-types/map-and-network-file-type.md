@@ -2,7 +2,7 @@
 
 VOSviewer map and network files are tab-delimited text files for storing a network. A map file contains information about the items in a network. A network file contains information about the links between items.
 
-Map and network files have multiple columns, separated by a tab or alternatively by a comma or semicolon. Viewing and editing these files can best be done using spreadsheet software such as MS Excel.
+Map and network files have multiple columns, separated by a tab, or alternatively by a comma or semicolon. Viewing and editing these files can best be done using spreadsheet software such as MS Excel.
 
 ## VOSviewer map files
 
@@ -50,6 +50,6 @@ This is an example of a VOSviewer network file:
 
 The above network file can be downloaded [here](/docs/assets/data/example_network.txt).
 
-Providing the map and network file as input to VOSviewer Online yields the following visualization:
+Providing the above map and network file as input to VOSviewer Online yields the following visualization:
 
 <iframe allowfullscreen="true" src="https://app.vosviewer.com/?map=https://app.vosviewer.com/docs/assets/data/example_map.txt&network=https://app.vosviewer.com/docs/assets/data/example_network.txt&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>

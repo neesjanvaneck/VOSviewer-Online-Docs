@@ -10,7 +10,7 @@ This documentation covers the following topics:
 
 - [*Sharing a visualization*](/docs/sharing/). How to share a visualization of a network using VOSviewer Online.
 
-- [*Examples*](/docs/examples/). Examples of networks visualized using VOSviewer Online.
+- [*Examples*](/docs/examples/). Examples of visualizations of bibliometric networks using VOSviewer Online.
 
 <p>
   <img src="/docs/assets/images/example1.png" width="370" />

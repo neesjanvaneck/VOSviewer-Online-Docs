@@ -4,15 +4,15 @@ The user interface of VOSviewer Online, shown below, consists of the following e
 
 - [*Main panel*](main-panel/). The main panel presents an interactive visualization of a network.
 
-- [*Control panel*](control-panel/). The control panel can be used to make adjustments to the visualization of a network in the main panel, to find an item in the visualization, and to update the layout and clustering of the network visualized in the main panel.
+- [*Control panel*](control-panel/). The control panel can be used to make adjustments to the visualization of a network, to find an item in the visualization, and to update the layout and clustering of a network.
 
 - [*Action buttons*](action-buttons/). The action buttons can be used to perform actions such as opening and saving a network and making a screenshot of the visualization of a network.
 
-- *Zoom buttons*. The zoom buttons can be used to zoom in and out in the visualization of a network in the main panel.
+- *Zoom buttons*. The zoom buttons can be used to zoom in and out in the visualization of a network.
 
-- *Legend*. The legend shows how to interpret the size and color of an item in the visualization of a network in the main panel.
+- *Legend*. The legend shows how to interpret the size and color of an item in the visualization of a network.
 
-- *Info box*. The info box provides information about the network visualized in the main panel or about an item in the network.
+- *Info box*. The info box provides information about a network or about an item in the network.
 
 <figure>
   <img src="/docs/assets/images/user_interface_annotated.png" />

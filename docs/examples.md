@@ -1,6 +1,6 @@
 # Examples
 
-Examples of networks visualized using VOSviewer Online.
+Examples of visualizations of bibliometric networks using VOSviewer Online.
 
 ## Co-authorship network of authors in Journal of Informetrics
 
@@ -16,7 +16,7 @@ Visualization of a co-authorship network of the universities included in the 201
 
 ## Bibliographic coupling network of articles in Quantitative Science Studies
 
-Visualization of a bibliographic coupling network of the most highly cited articles in *Quantitative Science Studies* in 2020. The visualization is based on data from Dimensions.
+Visualization of a bibliographic coupling network of the most cited articles in *Quantitative Science Studies* in 2020. The visualization is based on data from Dimensions.
 
 <iframe allowfullscreen="true" src="https://app.vosviewer.com/?map=https://app.vosviewer.com/data/QSS_publication_bibliographic_coupling_map.txt&network=https://app.vosviewer.com/data/QSS_publication_bibliographic_coupling_network.txt&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>
 

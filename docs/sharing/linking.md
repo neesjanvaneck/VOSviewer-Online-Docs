@@ -18,7 +18,7 @@ https://app.vosviewer.com/?json=https://app.vosviewer.com/data/QSS_SM_2020-2021_
 
 Using this link, VOSviewer Online is launched, the above network is opened, and a visualization of the network is presented. In addition, the [**Scale**](/docs/user-interface/control-panel/#scale) slider on the [**View**](/docs/user-interface/control-panel/#view) tab in the [control panel](/docs/user-interface/control-panel/) is set to `1.5`. The [**Curved links**](/docs/user-interface/control-panel/#curved-links) switch is set to `false`.
 
-Instead of a [VOSviewer JSON file](/docs/file-types/json-file-type/), it is also possible to use a [VOSviewer map and network file](/docs/file-types/map-and-network-file-type/). Consider the network stored in the following map and network file:
+Instead of a [VOSviewer JSON file](/docs/file-types/json-file-type/), it is also possible to use a [VOSviewer map and network file](/docs/file-types/map-and-network-file-type/). Consider the network stored in the following map and network files:
 
 ```
 https://app.vosviewer.com/data/QSS_SM_2020-2021_co-authorship_map.txt
@@ -35,13 +35,13 @@ Using this link, the [**Scale**](/docs/user-interface/control-panel/#scale) slid
 
 The above links include the parameters `json`, `map`, `network`, `scale`, and `curved_links`. The full list of parameters supported by VOSviewer Online can be found below.
 
-To simplify a link, you may consider the use of a URL shortening service, such as [Bitly](https://bitly.com/){target="_blank"} or [TinyURL](https://tinyurl.com/){target="_blank"}.
+To simplify a link, a URL shortening service, such as [Bitly](https://bitly.com/){target="_blank"} or [TinyURL](https://tinyurl.com/){target="_blank"}, can be used.
 
 ## Using Google Drive
 
-It is often convenient to use a cloud storage service to link to a visualization. We consider the use of Google Drive, although alternatives such as Microsoft OneDrive and Dropbox can be used as well. The use of Google Drive requires a Google account.
+It is often convenient to use a cloud storage service to create a link to a visualization. We consider the use of Google Drive, although alternatives such as Microsoft OneDrive and Dropbox can be used as well. The use of Google Drive requires a Google account. We focus on the use of a [VOSviewer JSON file](/docs/file-types/json-file-type/), but the use of a [VOSviewer map and network file](/docs/file-types/map-and-network-file-type/) is possible as well.
 
-The first step is to upload a [VOSviewer JSON file](/docs/file-types/json-file-type/) to Google Drive and to get a link for sharing the file. To obtain a suitable link, select the **Anyone with the link** option, not the **Restricted** option. Also, select the **Viewer** option, not the **Commenter** or **Editor** option. The following link may for instance be obtained:
+The first step is to upload a JSON file to Google Drive and to get a link for sharing the file. To obtain a suitable link, select the **Anyone with the link** option, not the **Restricted** option. Also, select the **Viewer** option, not the **Commenter** or **Editor** option. The following link may for instance be obtained:
 
 ```
 https://drive.google.com/file/d/16rdPZ3Md3b3mbsIftRZRjEUM6kkFX2zy/view?usp=sharing
@@ -55,7 +55,7 @@ The second step is to convert this into a link for downloading the JSON file. In
 https://drive.google.com/uc?id=16rdPZ3Md3b3mbsIftRZRjEUM6kkFX2zy
 ```
 
-Hence, the link `https://drive.google.com/file/d/XXX/view?usp=sharing` is converted into the link `https://drive.google.com/uc?id=XXX`, where `XXX` denotes the identifier of a JSON file on Google Drive.
+Hence, the link `https://drive.google.com/file/d/XXX/view?usp=sharing` is converted into the link `https://drive.google.com/uc?id=XXX`, where `XXX` denotes the identifier of the JSON file on Google Drive.
 
 The final step is to create a link for launching VOSviewer Online and for opening and visualizing the network stored in the JSON file:
 

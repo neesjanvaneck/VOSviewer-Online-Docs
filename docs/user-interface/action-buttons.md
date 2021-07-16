@@ -24,7 +24,7 @@ Use the **Share** button to [share a visualization of a network](/docs/sharing/)
 
 ![Screenshot button](/docs/assets/images/screenshot.png)
 
-Use the **Screenshot** button to make a screenshot of the [main panel](/docs/user-interface/main-panel/). The screenshot will be downloaded in a PNG file. To make a high-resolution screenshot, the use of the stand-alone version of VOSviewer is recommended.
+Use the **Screenshot** button to make a screenshot of the visualization of a network. The screenshot will be downloaded in a PNG file. To make a high-resolution screenshot, the use of the stand-alone version of VOSviewer is recommended.
 
 ## Dark user interface
 

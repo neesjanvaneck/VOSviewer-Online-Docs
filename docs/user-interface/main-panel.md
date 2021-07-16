@@ -6,11 +6,11 @@ The main panel presents an interactive visualization of a network.
 
 The interpretation of the visualization of a network can be summarized as follows:
 
-- *Size of an item*. The size of an item represents the value of the attribute selected in the [**Size**](/docs/user-interface/control-panel/#size) drop down list on the [**View**](/docs/user-interface/control-panel/#view) tab in the [control panel](/docs/user-interface/control-panel/). The legend shows how to interpret the size of an item.
+- *Size of an item*. The size of an item represents the value of the attribute selected in the [**Size**](/docs/user-interface/control-panel/#size) drop down list on the [**View**](/docs/user-interface/control-panel/#view) tab in the [control panel](/docs/user-interface/control-panel/).
 
-- *Color of an item*. The color of an item represents the value of the attribute selected in the [**Color**](/docs/user-interface/control-panel/#color) drop down list on the [**View**](/docs/user-interface/control-panel/#view) tab in the [control panel](/docs/user-interface/control-panel/). The legend shows how to interpret the color of an item.
+- *Color of an item*. The color of an item represents the value of the attribute selected in the [**Color**](/docs/user-interface/control-panel/#color) drop down list on the [**View**](/docs/user-interface/control-panel/#view) tab in the [control panel](/docs/user-interface/control-panel/).
 
-- *Label of an item*. Each item in a network has a label, but to prevent labels from overlapping, it may not be possible to display all labels. Labels of items that have a larger size are prioritized over labels of items that have a smaller size. By zooming in on a specific area in the visualization of a network, more labels can be made visible.
+- *Label of an item*. Each item in a network has a label, but to prevent overlap of labels, it is not always possible to display all labels. Labels of items that have a larger size are prioritized over labels of items that have a smaller size. By zooming in on a specific area in the visualization of a network, more labels can be made visible.
 
 - *Thickness of a link between two items*. The thickness of a link between two items represents the strength of the link. Links are displayed only if their strength is greater than or equal to the [**Minimum strength**](/docs/user-interface/control-panel/#minimum-strength-and-maximum-links) parameter on the [**View**](/docs/user-interface/control-panel/#view) tab in the [control panel](/docs/user-interface/control-panel/).
 

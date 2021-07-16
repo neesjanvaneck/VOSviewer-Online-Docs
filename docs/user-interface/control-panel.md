@@ -52,7 +52,7 @@ The **Maximum label length** parameter determines the maximum length of a label 
 
 ![Size variation slider](/docs/assets/images/size_variation.png)
 
-The stronger the link between two items, the thicker the link is displayed in the visualization of a network. The **Size variation** slider determines the strength of this effect.
+The stronger the link between two items, the thicker the link in the visualization of a network. The **Size variation** slider determines the strength of this effect.
 
 #### Minimum strength and Maximum links
 
@@ -120,7 +120,7 @@ Use the **Flip vertically** button to flip the layout of a network in vertical d
 
 ![Normalization method drop down list](/docs/assets/images/normalization_method.png)
 
-Use the **Normalization method** drop down list to determine how the strength of the links between items is normalized in the layout and clustering techniques used by VOSviewer Online:
+Use the **Normalization method** drop down list to determine how the strength of the links between the items in a network is normalized in the layout and clustering techniques used by VOSviewer Online:
 
 - **No normalization**. Do not perform a normalization. In general, this is not recommended.
 
@@ -136,7 +136,7 @@ Use the **Normalization method** drop down list to determine how the strength of
 
 ![Attraction and Repulsion text fields](/docs/assets/images/attraction_repulsion.png)
 
-Use the **Attraction** and **Repulsion** parameters to adjust the layout of a network. The parameters must have a positive or negative integer value, typically between -2 and 2. The **Attraction** parameter must have a higher value than the **Repulsion** parameter. In most cases, it is recommended to set the **Attraction** and **Repulsion** parameters to values of 2 and 1, respectively. Values of 2 and 0 or 1 and 0 sometimes also yield a good layout.
+Use the **Attraction** and **Repulsion** parameters to adjust the layout of a network. The parameters must have a positive or negative integer value, typically between -2 and 2. The **Attraction** parameter must have a higher value than the **Repulsion** parameter. In most cases, it is recommended to set the **Attraction** and **Repulsion** parameters to values of 2 and 1, respectively. Values of 2 and 0 or 1 and 0 may also yield a good layout.
 
 #### Advanced parameters
 
@@ -156,7 +156,7 @@ Use the **Update layout** button to update the layout of a network.
 
 ![Resolution text field](/docs/assets/images/resolution.png)
 
-The **Resolution** parameter determines the level of detail of the clustering of a network. The parameter must have a non-negative value. The higher the value of the parameter, the larger the number of clusters in the clustering of a network. It is recommended to try out different values for the **Resolution** parameter and to use the value that yields the most satisfactory clustering.
+The **Resolution** parameter determines the level of detail of the clustering of a network. The parameter must have a non-negative value. The higher the value of the parameter, the larger the number of clusters in the clustering of a network. It is recommended to try out different values for the **Resolution** parameter and to use the value that yields the most useful clustering.
 
 #### Minimum cluster size
 
@@ -168,7 +168,7 @@ The **Minimum cluster size** parameter determines the minimum size of a cluster 
 
 ![Merge small clusters switch](/docs/assets/images/merge_small_clusters.png)
 
-The **Merge small clusters** switch determines how small clusters, which do not have the minimum cluster size specified by the **Minimum cluster size** parameter, are handled. If the switch is turned on, small clusters are merged into larger clusters. Otherwise small clusters are discarded.
+The **Merge small clusters** switch determines how small clusters, which do not include the minimum number of items specified by the **Minimum cluster size** parameter, are handled. If the switch is turned on, small clusters are merged into larger clusters. Otherwise small clusters are discarded.
 
 #### Advanced parameters
 
