@@ -8,6 +8,7 @@ site_description: >-
 # Repository
 repo_url: https://github.com/neesjanvaneck/VOSviewer-Online
 repo_name: neesjanvaneck/VOSviewer-Online
+edit_uri: ""
 
 # Copyright
 copyright: >-
