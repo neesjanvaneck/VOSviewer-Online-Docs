@@ -15,6 +15,6 @@ This documentation covers the following topics:
 <p>
   <img src="/docs/assets/images/example1.png" width="370" />
   <img src="/docs/assets/images/example2.png" width="370" />
-  <img src="/docs/assets/images/example4.png" width="370" />
   <img src="/docs/assets/images/example3.png" width="370" />
+  <img src="/docs/assets/images/example7.png" width="370" />
 </p>
