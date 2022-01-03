@@ -1,6 +1,6 @@
 # VOSviewer JSON files
 
-VOSviewer JSON files are JSON files for storing a network. These files can also store a configuration of VOSviewer Online.
+VOSviewer JSON files are JSON files for storing a network. These files can also store a configuration of VOSviewer Online to be used for visualizing the network.
 
 ## JSON format
 
@@ -9,7 +9,8 @@ VOSviewer JSON files are JSON files for storing a network. These files can also 
 Attribute | Type | Description
 --------- | ---- | -----------
 network | Object | [Network](#network-object) object representing a network.
-config | Object | [Config](#config-object) object specifying a configuration of VOSviewer Online.
+config | Object | [Config](#config-object) object specifying a configuration of VOSviewer Online to be used for visualizing the network.
+info | Object | [Info](#info-object) object providing information about the visualization of the network.
 
 ### Network object
 
@@ -102,6 +103,7 @@ score_colors | String | Value of the [**Score colors**](/docs/user-interface/con
 min_score | Float | Value of the **Min. score** parameter in the legend.
 max_score | Float | Value of the **Max. score** parameter in the legend.
 zoom_level | Float | Initial zoom level of the visualization in the [main panel](/docs/user-interface/main-panel/). The zoom level has a value of at least 1.
+show_info | Boolean | When opening a network, show or do not show information about the visualization of the network.
 show_item | String | Item on which the visualization in the [main panel](/docs/user-interface/main-panel/) will be zoomed in. The item is designated by its label.
 simple_ui | Boolean | Simple or normal user interface. The use of the simple user interface is recommended when [embedding a visualization in a webpage](/docs/sharing/embedding/).
 dark_ui | Boolean | Dark or light user interface.
@@ -134,6 +136,13 @@ description_heading | String | CSS style for headings in the description of an i
 description_label | String | CSS style for labels in the description of an item or a link.
 description_text | String | CSS style for text in the description of an item or a link.
 description_url | String | CSS style for URLs in the description of an item or a link.
+
+### Info object
+
+Attribute | Type | Description
+--------- | ---- | -----------
+title | String | Title of the visualization of a network.
+description | String | Description of the visualization of a network. A description may include HTML formatting.
 
 ## Example
 

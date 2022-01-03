@@ -105,9 +105,10 @@ max_score | Value of the **Max. score** parameter in the legend.
 zoom_level | Initial zoom level of the visualization in the [main panel](/docs/user-interface/main_panel/). The zoom level has a value of at least 1.
 show_item | Item on which the visualization in the [main panel](/docs/user-interface/main_panel/) will be zoomed in. The item is designated by its label.
 
-## Parameters for adjusting the user interface of VOSviewer Online
+## Miscellaneous parameters
 
 Parameter | Description
 --------- | -----------
+show_info | When opening a network, show ('true') or do not show ('false') information about the visualization of the network.
 simple_ui | Simple or normal user interface ('true' or 'false'). The use of the simple user interface is recommended when [embedding a visualization in a webpage](/docs/sharing/embedding/).
 dark_ui | Dark or light user interface ('true' or 'false').
