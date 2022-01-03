@@ -42,4 +42,4 @@ Use the **Full screen** button to view VOSviewer Online in full screen.
 
 ![Info button](/docs/assets/images/info.png)
 
-Use the **Info** button to view the **Docs** of VOSviewer Online or the **About** information of VOSviewer Online.
+Use the **Info** button to open **VOSviewer Online Docs** or to view the **About VOSviewer Online** information.
