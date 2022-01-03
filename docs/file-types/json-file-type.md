@@ -12,7 +12,7 @@ network | Object | [Network](#network-object) object representing a network.
 config | Object | [Config](#config-object) object specifying a configuration of VOSviewer Online to be used for visualizing the network.
 info | Object | [Info](#info-object) object providing information about the visualization of the network.
 
-### Network object
+#### Network object
 
 Attribute | Type | Description
 --------- | ---- | -----------
@@ -20,7 +20,7 @@ items | Array | Array of [Item](#item-object) objects, each representing an item
 links | Array | Array of [Link](#link-object) objects, each representing a link in a network.
 clusters | Array | Array of [Cluster](#cluster-object) objects, each representing a cluster of items in a network.
 
-### Item object
+##### Item object
 
 Attribute | Type | Description
 --------- | ---- | -----------
@@ -34,7 +34,7 @@ cluster | Integer | Cluster to which an item belongs. A cluster is represented b
 weights | Object map of key-value pairs | Weights of an item. Each weight is represented by a key and a value. The key is a string. The value is a non-negative number. For example: `"weights": { "Publications": 190, "Citations": 4213, "Norm. citations": 314.2 }`.
 scores | Object map of key-value pairs | Scores of an item. Each score is represented by a key and a value. The key is a string. The value is a number.
 
-### Link object
+##### Link object
 
 Attribute | Type | Description
 --------- | ---- | -----------
@@ -42,14 +42,14 @@ source_id | String or integer | ID of a source item.
 target_id | String or integer | ID of a target item.
 strength | Float | Strength of the link between a source item and a target item. The strength is a non-negative number.
 
-### Cluster object
+##### Cluster object
 
 Attribute | Type | Description
 --------- | ---- | -----------
 cluster | Integer | Cluster. A cluster is represented by an integer between 1 and 1000.
 label | String | Label of a cluster.
 
-### Config object
+#### Config object
 
 Attribute | Type | Description
 --------- | ---- | -----------
@@ -59,28 +59,28 @@ terminology | Object | [Terminology](#terminology-object) object specifying term
 templates | Object | [Templates](#templates-object) object specifying templates used by VOSviewer Online.
 styles | Object | [Styles](#styles-object) object specifying styles used by VOSviewer Online.
 
-### Color_schemes object
+##### Color_schemes object
 
 Attribute | Type | Description
 --------- | ---- | -----------
 cluster_colors | Array | Array of [Cluster_color](#cluster_color-object) objects, each representing a cluster and the corresponding color.
 score_colors | Array | Array of [Score_colors](#score_colors-object) objects, each representing a rescaled score and the corresponding color.
 
-### Cluster_color object
+###### Cluster_color object
 
 Attribute | Type | Description
 --------- | ---- | -----------
 cluster | Integer | Cluster. A cluster is represented by an integer between 1 and 1000.
 color | String | Color of a cluster. A color is represented by a hexadecimal code (e.g., `#ee3e80`).
 
-### Score_color object
+###### Score_color object
 
 Attribute | Type | Description
 --------- | ---- | -----------
 rescaled_score | Float | Rescaled score. A rescaled score is a number between 0 and 1.
 color | String | Color of a rescaled score. A color is represented by a hexadecimal code (e.g., `#ee3e80`).
 
-### Parameters object
+##### Parameters object
 
 Attribute | Type | Description
 --------- | ---- | -----------
@@ -108,7 +108,7 @@ show_item | String | Item on which the visualization in the [main panel](/docs/u
 simple_ui | Boolean | Simple or normal user interface. The use of the simple user interface is recommended when [embedding a visualization in a webpage](/docs/sharing/embedding/).
 dark_ui | Boolean | Dark or light user interface.
 
-### Terminology object
+##### Terminology object
 
 Attribute | Type | Description
 --------- | ---- | -----------
@@ -121,14 +121,14 @@ clusters | String | Term used to refer to a cluster (plural).
 link_strength | String | Term used to refer to the strength of a link.
 total_link_strength | String | Term used to refer to the total link strength of an item.
 
-### Templates object
+##### Templates object
 
 Attribute | Type | Description
 --------- | ---- | -----------
 item_description | String | Template for the description of an item.
 link_description | String | Template for the description of a link.
 
-### Styles object
+##### Styles object
 
 Attribute | Type | Description
 --------- | ---- | -----------
@@ -137,7 +137,7 @@ description_label | String | CSS style for labels in the description of an item 
 description_text | String | CSS style for text in the description of an item or a link.
 description_url | String | CSS style for URLs in the description of an item or a link.
 
-### Info object
+#### Info object
 
 Attribute | Type | Description
 --------- | ---- | -----------

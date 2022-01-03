@@ -10,3 +10,28 @@
 .md-header__title {
   margin-left: 0;
 }
+
+.md-typeset h1 {
+	font-size: 2em;
+}
+
+.md-typeset h2 {
+	font-size: 1.6em;
+}
+
+.md-typeset h3 {
+	font-size: 1.3em;
+}
+
+.md-typeset h4 {
+	font-size: 1.1em;
+}
+
+.md-typeset h5 {
+	font-size: 1em;
+	text-transform: none;
+}
+
+.md-typeset h6 {
+	font-size: 0.9em;
+}
