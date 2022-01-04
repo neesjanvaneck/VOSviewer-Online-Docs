@@ -18,19 +18,19 @@ Visualization of a co-authorship network of the universities included in the 201
 
 Visualization of a bibliographic coupling network of the most cited articles in *Quantitative Science Studies* in 2020. The visualization is based on data from Dimensions.
 
-<iframe allowfullscreen="true" src="https://app.vosviewer.com/?map=https://app.vosviewer.com/data/QSS_publication_bibliographic_coupling_map.txt&network=https://app.vosviewer.com/data/QSS_publication_bibliographic_coupling_network.txt&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>
+<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=https://app.vosviewer.com/data/QSS_publication_bibliographic_coupling_network.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>
 
 ## Co-citation network of journals in economics, management, and operations research
 
 Visualization of a co-citation network of journals in economics, management, operations research, and related fields. For more information, see [Van Eck and Waltman (2010)](https://doi.org/10.1007/s11192-009-0146-3){target="_blank"}.
 
-<iframe allowfullscreen="true" src="https://app.vosviewer.com/?map=https://app.vosviewer.com/data/Economics_journal_co-citation_map.txt&network=https://app.vosviewer.com/data/Economics_journal_co-citation_network.txt&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>
+<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=https://app.vosviewer.com/data/Economics_journal_co-citation_network.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>
 
 ## Citation network of journals
 
 Visualization of a citation network of journals. The visualization is based on open citation data from Crossref. For more information, see [this blog post](https://www.cwts.nl/blog?article=n-r2r294){target="_blank"}.
 
-<iframe allowfullscreen="true" src="https://app.vosviewer.com/?map=https://app.vosviewer.com/data/Crossref_journal_citation_map.txt&network=https://app.vosviewer.com/data/Crossref_journal_citation_network_10000.txt&scale=0.9&item_size_variation=0.3&max_n_lines=2000&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>
+<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=https://app.vosviewer.com/data/Crossref_journal_citation_network_10000.json&scale=0.9&item_size_variation=0.3&max_n_lines=2000&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"></iframe>
 
 ## Co-occurrence network of terms in scientometric journals
 
